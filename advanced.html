@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Advanced Search</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+      <div id="container">
+        <header>
+          <div class="nav">
+              <span class="navitem"><a href="index.html" class="link">Search</a></span>
+          </div>
+          <h1 class="advheader">Advanced Search</h1>
+          <div class="line"></div>
+        </header>
+          <div class="advform">
+            <form action="https://www.google.com/search">
+              <div id="advsubhead" class="advlabel"><span>Find pages with...</span></div>
+                <div class="advsearchbox">
+                  <div class="advlabel">
+                    <label for="as_q">all these words:</label>
+                  </div>
+                  <div class="advinput">
+                    <div style="padding-right: 16px;">
+                      <input type="text" name="as_q" id="as_q" autofocus>
+                    </div>
+                  </div>
+                  <div class="advlabel">
+                    <label for="as_epq">this exact word or phrase:</label>
+                  </div>
+                  <div class="advinput">
+                    <div style="padding-right: 16px;">
+                      <input type="text" name="as_epq" id="as_epq">
+                    </div>
+                  </div>
+                  <div class="advlabel">
+                    <label for="as_oq">any of these words:</label>
+                  </div>
+                  <div class="advinput">
+                    <div style="padding-right: 16px;">
+                      <input type="text" name="as_oq" id="as_oq">
+                    </div>
+                  </div>
+                  <div class="advlabel">
+                    <label for="as_eq">none of these words:</label>
+                  </div>
+                  <div class="advinput">
+                    <div style="padding-right: 16px;">
+                      <input type="text" name="as_eq" id="as_eq">
+                    </div>
+                  </div>
+                </div>
+                <div class="advlabel"></div>
+                <div class="advbutton" style="clear: none;">
+                  <span><input type="submit" value="Advanced Search" class="search submit" id="advsubmit"></span>
+                </div>
+            </form>
+          </div>
+      </div>
+    </body>
+</html>
